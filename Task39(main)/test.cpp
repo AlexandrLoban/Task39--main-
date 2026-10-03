@@ -15,8 +15,8 @@ void run_all_tests() {
 	test(1, false, "test05");
 	test(-7, false, "test06");
 	test(0, false, "test07");
-	test(12222, false, "test08");
-	test(22221, false, "test09");
+	test(12222, true, "test08");
+	test(22221, true, "test09");
 	test(1443, true, "test10");
 	test(-5789353, true, "test11");
 
