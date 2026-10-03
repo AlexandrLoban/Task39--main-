@@ -7,7 +7,6 @@ bool check_number(long long number) {
 		number *= -1;
 	}
 
-
 	if (number >= 0 and number <= 10) {
 		result = false;
 	}
@@ -23,7 +22,6 @@ bool check_number(long long number) {
 
 			number2 = number_copy / int (pow(10, q)) % 10;
 			
-
 			if (number1 == number2) {
 				return true;
 			}
@@ -40,5 +38,5 @@ bool check_number(long long number) {
 
 	}
 
-	return result;
+	return false;
 }
